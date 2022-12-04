@@ -1,0 +1,27 @@
+html, body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(./assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+:root {
+  --color-grey: #9E9E9E;
+  --color-blue: #90caf9;
+  --color-dark-blue: #2A344B;
+  --color-grey-blue: #BFDCE8;
+}

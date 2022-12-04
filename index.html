@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./src/header/header.css">
+  <link rel="stylesheet" href="./src/header/header__search/header__search.css">
+  <link rel="stylesheet" href="./src/header/header__card/header__card.css">
+  <link rel="stylesheet" href="./src/main/main.css">
+  <link rel="stylesheet" href="./src/main/main__popular-cities/main__popular-cities.css">
+  <link rel="stylesheet" href="./src/main/main__questions/main__questions.css">
+  <link rel="stylesheet" href="./src/footer/footer.css">
+  <link rel="stylesheet" href="./src/adaptation.css">
+  <script type="module" src="./src/index.js"></script>
+  <title>Weather</title>
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="header__search">
+      <input class="header__search__input" placeholder="Start typing to search...">
+      <button class="header__search__button"></button>
+      <div class="header__search__answer"></div>
+      <div class="header__search__recent-cities"></div>
+    </div>
+    <div class="header__card">
+      <div class="header__card__info">
+        <div class="header__card__info__weather">
+          <div class="header__card__info__weather__image"></div>
+          <div class="header__card__info__weather__data">
+            <div class="data_bold header__card__info__weather__data__temperature">loading...</div>
+            <div class="header__card__info__weather__data__info1">loading...</div>
+            <div class="header__card__info__weather__data__info2">loading...</div>
+          </div>
+        </div>
+        <div class="header__card__info__city-and-date">
+          <div class="data_bold header__card__info__city-and-date__city">loading...</div>
+          <div class="header__card__info__city-and-date__date">loading...</div>
+        </div>
+      </div>
+      <div class="header__card__temperature">
+        <div class="header__card__temperature__min">
+          <div class="header__card__temperature__min__header">Min</div>
+          <div class="data_bold header__card__temperature__min__temperature">loading...</div>
+        </div>
+        <div class="header__card__temperature__max">          
+          <div class="header__card__temperature__max__header">Max</div>
+          <div class="data_bold header__card__temperature__max__temperature">loading...</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <h1 class="main__header main__popular-cities-header">
+      Check the weather in most popular cities in the world
+    </h1>
+    <div class="main__popular-cities">
+      
+      <div class="main__popular-cities__city main__popular-cities__new-york">
+        <a class="main__popular-cities__city-anchor" href="#header">
+          <div class="main__popular-cities__city__button main__popular-cities__new-york__button">
+            New-York
+          </div>
+        </a> 
+      </div> 
+      <div class="main__popular-cities__city main__popular-cities__london">
+        <a class="main__popular-cities__city-anchor" href="#header">
+          <div class="main__popular-cities__city__button main__popular-cities__london__button">
+            London
+          </div>
+        </a>
+      </div>
+      <div class="main__popular-cities__city main__popular-cities__dubai">
+        <a class="main__popular-cities__city-anchor" href="#header">
+          <div class="main__popular-cities__city__button main__popular-cities__dubai__button">
+            Dubai
+          </div>
+        </a>
+      </div>
+      <div class="main__popular-cities__city main__popular-cities__paris">
+        <a class="main__popular-cities__city-anchor" href="#header">
+          <div class="main__popular-cities__city__button main__popular-cities__paris__button">
+            Paris
+          </div>
+        </a>
+      </div>
+    </div>
+    <h1 class="main__header main__questions-header">
+      Frequently Asked Questions
+    </h1>
+    <div class="main__questions-section">
+      <div class="main__questions main__questions__title main__questions__first-title">
+        Question 1
+      </div>
+      <div class="main__questions main__questions__body main__questions__first">
+        But I must explain to you how all this mistaken idea of denouncing 
+        pleasure and praising pain was born and I will give you a complete 
+        account of the system, and expound the actual teachings of the 
+        great explorer of the truth, the master-builder of human happiness. 
+        No one rejects, dislikes, or avoids pleasure itself, because it is 
+        pleasure, but because those who do not know how to pursue pleasure 
+        rationally encounter consequences that are extremely painful.
+      </div>
+      <div class="main__questions main__questions__title main__questions__second-title">
+        Question 2
+      </div>
+      <div class="main__questions main__questions__body main__questions__second">
+        But I must explain to you how all this mistaken idea of denouncing 
+        pleasure and praising pain was born and I will give you a complete 
+        account of the system, and expound the actual teachings of the 
+        great explorer of the truth, the master-builder of human happiness. 
+        No one rejects, dislikes, or avoids pleasure itself, because it is 
+        pleasure, but because those who do not know how to pursue pleasure 
+        rationally encounter consequences that are extremely painful.
+      </div>
+      <div class="main__questions main__questions__title main__questions__third-title">
+        Question 3
+      </div>
+      <div class="main__questions main__questions__body main__questions__third">
+        But I must explain to you how all this mistaken idea of denouncing 
+        pleasure and praising pain was born and I will give you a complete 
+        account of the system, and expound the actual teachings of the 
+        great explorer of the truth, the master-builder of human happiness. 
+        No one rejects, dislikes, or avoids pleasure itself, because it is 
+        pleasure, but because those who do not know how to pursue pleasure 
+        rationally encounter consequences that are extremely painful.
+      </div>
+      <div class="main__questions main__questions__title main__questions__forth-title">
+        Question 4
+      </div>
+      <div class="main__questions main__questions__body main__questions__forth">
+        But I must explain to you how all this mistaken idea of denouncing 
+        pleasure and praising pain was born and I will give you a complete 
+        account of the system, and expound the actual teachings of the 
+        great explorer of the truth, the master-builder of human happiness. 
+        No one rejects, dislikes, or avoids pleasure itself, because it is 
+        pleasure, but because those who do not know how to pursue pleasure 
+        rationally encounter consequences that are extremely painful.
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__text">
+      Anastasiia Shevchenko - <span class="footer__text-year">year</span>
+    </div>
+  </footer>
+</body>
+</html>
