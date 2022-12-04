@@ -1,0 +1,114 @@
+.header__card {
+  width: 600px;
+  /* height: 236px; */
+  height: auto;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 30px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header__card__info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--color-grey-blue);
+  margin: 20px;
+}
+
+.header__card__info__weather {
+  display: flex;
+  padding-bottom: 20px;
+  flex-shrink: 0;
+}
+
+.header__card__info__weather__image {
+  width: 100px;
+  height: 100px;
+  /* background-image: url(../../../assets/images/image\ 1.png); */
+  background-color: white;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.header__card__info__weather__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #212121;
+}
+
+.data_bold {
+  font-family: "Roboto-Medium";
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.header__card__info__weather__data__temperature {
+}
+
+.header__card__info__weather__data__info1 {
+}
+
+.header__card__info__weather__data__info2 {
+  color: var(--color-grey);
+}
+
+.header__card__info__city-and-date {
+  /* max-width: 55%; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header__card__info__city-and-date__city {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.header__card__info__city-and-date__date {
+  color: var(--color-grey);
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.header__card__temperature {
+  display: flex;
+  margin: 0 20px;
+  /* width: 100%; */
+  height: inherit;
+  margin-bottom: 20px;
+}
+
+.header__card__temperature__min {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-right: 2px solid var(--color-grey-blue);
+}
+
+.header__card__temperature__min__header {
+  color: var(--color-grey);
+}
+
+.header__card__temperature__min__temperature {
+}
+
+.header__card__temperature__max {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.header__card__temperature__max__header {
+  color: var(--color-grey);
+}
+
+.header__card__temperature__max__temperature {
+}

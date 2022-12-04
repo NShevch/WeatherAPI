@@ -1,0 +1,46 @@
+@media (max-width: 1050px) {
+  .main__popular-cities__city {    
+    width: 40%;
+    background-size: cover;
+  }
+  .main__questions-section {
+    width: 100%;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header__search,
+  .header__card {
+    width: 100%; 
+  }
+}
+
+@media (max-width: 650px) {
+  .header {
+    height: 100vh;
+    padding: 0 16px;
+  }
+  .header__card__info {
+    flex-direction: column;
+  }
+  .header__card__info__city-and-date {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .header__card__info__city-and-date__city {
+    text-align: left;
+  }
+  .header__card__info__city-and-date__date {
+    margin-bottom: 10px;
+  }
+  
+}
+
+@media (max-width: 590px) {  
+  .main__popular-cities__city {    
+    width: 100%;
+  }  
+}

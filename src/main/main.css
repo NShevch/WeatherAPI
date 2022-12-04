@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__header {
+  width: auto;
+  max-width: 670px;
+  /* font-size: 32px; */
+  /* line-height: 38px; */
+  text-align: center;
+  margin: 70px 30px 15px;
+}
+

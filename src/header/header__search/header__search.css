@@ -1,0 +1,122 @@
+.header__search {
+  position: relative;
+  margin: 30px 30px 0;
+  width: 600px;
+}
+
+.header__search__input {
+  position: relative;
+  /* min-width: 300px; */
+  width: 100%;
+  height: 60px;
+  /* left: 420px;
+  top: 30px; */
+  background: #ffffff;
+  border-radius: 30px;
+  border: none;
+  padding-left: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+}
+
+.header__search__input::placeholder {
+  color: #9e9e9e;
+}
+
+.header__search__input:focus {
+  outline: 2px solid #6ea2d1;
+}
+
+.header__search__button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 10px;
+  top: 10px;
+  background-color: var(--color-blue);
+  background-image: url(../../../assets/images/vector.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.header__search__button:hover {
+  background-color: var(--color-grey);
+}
+.header__search__button:active {
+  transform: scale(0.9);
+}
+
+.header__search__answer {
+  display: none;
+  position: absolute;
+  top: 70px;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  z-index: 3;
+}
+
+.header__search__answer__item {
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 30px;
+  color: #000000;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.header__search__answer__item:hover {
+  background-color: #90caf9;
+  color: #ffffff;
+}
+
+.header__search__recent-cities {
+  display: none;
+  /* display: flex; */
+  flex-wrap: wrap;
+  position: absolute;
+  top: 65px;
+  max-height: 39px;
+  height: auto;
+  width: 100%;
+  padding-left: 15px;
+  background-color: transparent;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.header__search__recent-cities__city {
+  max-height: 19px;
+  max-width: 130px;
+  /* height: fit-content; */
+  /* width: min-content; */
+  margin-left: 10px;
+  color: var(--color-grey);
+  font-size: 14px;
+  cursor: pointer;
+  border-bottom: 1px dashed;
+  overflow: hidden;
+  padding: 0px 5px 2px;
+}
+.header__search__recent-cities__city:hover {
+  /* transform: scale(0.09); */
+    border-bottom: 2px solid;
+    padding-bottom: 1px;
+}
+
+/*----------------------- dark_theme ------------------------*/
+.header__search__answer__item.dark-theme:hover,
+.header__search__button.dark-theme {  
+  background-color: var(--color-dark-blue);
+}
+.header__search__button.dark-theme:hover {  
+  background-color: var(--color-grey);
+}

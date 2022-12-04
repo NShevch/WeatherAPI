@@ -1,0 +1,61 @@
+.main__popular-cities {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 25px;
+}
+.main__popular-cities__city {
+  display: flex;
+  position: relative;
+  min-width: 220px;
+  width: 220px;
+  height: 220px;
+  border-radius: 30px;
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  background-position: center;
+}
+.main__popular-cities__city:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 8px 7px 3px var(--color-grey-blue);
+  transition: 0.5s;
+}
+.main__popular-cities__city:active {
+  box-shadow: 5px 8px 7px 3px var(--color-blue);
+}
+.main__popular-cities__new-york {
+  background-image: url(../../../assets/images/main__popular-cities/NY.jpg);
+}
+.main__popular-cities__london {
+  background-image: url(../../../assets/images/main__popular-cities/london.jpg);
+}
+.main__popular-cities__dubai {
+  background-image: url(../../../assets/images/main__popular-cities/dubai.jpg);
+}
+.main__popular-cities__paris {
+  background-image: url(../../../assets/images/main__popular-cities/paris.jpg);
+}
+
+.main__popular-cities__city-anchor {  
+  height: inherit;
+  width: inherit;
+  border-radius: inherit;
+  outline: none;
+  color: black;
+}
+
+.main__popular-cities__city__button {
+  position: absolute;
+  /* width: 200px; */
+  width: 90%;
+  height: 36px;
+  left: 10px;
+  top: 170px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
